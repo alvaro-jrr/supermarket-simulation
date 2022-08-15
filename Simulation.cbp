@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Simulation" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="include/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Simulation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Simulation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Cashier.h" />
+		<Unit filename="include/CashierSystem.h" />
+		<Unit filename="include/Client.h" />
+		<Unit filename="include/DeltaList.h" />
+		<Unit filename="include/Queue.h" />
+		<Unit filename="include/ShoppingCart.h" />
+		<Unit filename="include/Simulation.h" />
+		<Unit filename="include/Stack.h" />
+		<Unit filename="include/Timer.h" />
+		<Unit filename="include/WaitingClientQueue.h" />
+		<Unit filename="include/utils.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Cashier.cpp" />
+		<Unit filename="src/CashierSystem.cpp" />
+		<Unit filename="src/Client.cpp" />
+		<Unit filename="src/DeltaList.cpp" />
+		<Unit filename="src/Queue.cpp" />
+		<Unit filename="src/ShoppingCart.cpp" />
+		<Unit filename="src/Simulation.cpp" />
+		<Unit filename="src/Stack.cpp" />
+		<Unit filename="src/Timer.cpp" />
+		<Unit filename="src/WaitingClientQueue.cpp">
+			<Option virtualFolder="include/" />
+		</Unit>
+		<Unit filename="src/utils.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
